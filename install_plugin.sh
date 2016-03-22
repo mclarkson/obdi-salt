@@ -36,3 +36,9 @@ curl -k -d '{
     "Parent":""
 }' $proto://$ipport/api/admin/$guid/plugins
 
+curl -k -d '{
+    "Code":"SALT_WORKER",
+    "Desc":"Location of the Salt worker.",
+    "IsWorkerDef":true
+}' $proto://$ipport/api/admin/$guid/envcaps
+
