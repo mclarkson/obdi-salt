@@ -1,0 +1,6 @@
+{
+  "name": "Obdi-salt",
+  "tagline": "Obdi plugin providing the base Salt plugin required by all Salt plugins",
+  "body": "# obdi-salt\r\nObdi plugin providing the base Salt plugin required by all Salt plugins.\r\n\r\nIf this plugin is not installed with other Salt plugins then they will continue to work as normal, and their REST interfaces can be used, but there will be no way to view the Salt plugins in the Web Interface.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
